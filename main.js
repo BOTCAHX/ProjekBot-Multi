@@ -76,9 +76,15 @@ browser: ['Rtxzy','Safari','1.0.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
+/*cek*/
+//global.conn = makeWASocket({ ...connectionOptions, ...opts.connectionOptions,
+//getMessage: async (key) => (
+//opts.store.loadMessage(/** @type {string} */(key.remoteJid), key.id) ||
+//opts.store.loadMessage(/** @type {string} */(key.id)) || {}
+//).message || { conversation: 'Please send messages again' },
+//})
 
 conn.isInit = false
-
 if (!opts['test']) {
 if (global.db) setInterval(async () => {
 if (global.db.data) await global.db.write()
