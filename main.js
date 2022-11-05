@@ -76,7 +76,6 @@ browser: ['Rtxzy','Safari','1.0.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
-})
 
 conn.isInit = false
 
