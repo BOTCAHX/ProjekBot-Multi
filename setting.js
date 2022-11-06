@@ -84,21 +84,6 @@ global.APIKeys = { // Apiekylu tot
   'https://anabotofc.herokuapp.com/': 'AnaBot',
   'https://violetics.pw': 'beta'
 }
-//pake ini bila perlu ini cuma sekedar template image
-/**global.imagen1 = fs.readFileSync('./bot1.jpg')
-global.imagen2 = fs.readFileSync('./src/bot.jpg') 
-global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
-global.imagen4 = fs.readFileSync('./bot3.png')
-**/
-/**  Ini si tergantung mau di pake atau engga
-global.htki = '*⭑•̩̩͙⊱•••• ☪*'
-global.htka = '*☪ ••••̩̩͙⊰•⭑*'
-
-global.cmenut = '❖––––––『'
-global.cmenub = '┊✦ '
-global.cmenuf = '╰━═┅═━––––––๑\n'
-global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     '
-**/
 global.mods = [] 
 
 global.multiplier = 69
